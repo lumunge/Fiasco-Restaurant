@@ -13,8 +13,9 @@ export default function Hero() {
                 />
             </div>
             <div className={HeaderStyles.heroText}>
-                <h1>Lorem ipsum dolor sit.</h1>
+                <p className={HeaderStyles.heading}>Lorem ipsum dolor sit.</p>
                 <p>Lorem, ipsum dolor.</p>
+                <br/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nisi.</p>
             </div>
         </div>
