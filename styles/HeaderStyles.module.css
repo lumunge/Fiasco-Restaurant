@@ -1,0 +1,25 @@
+.navbar{
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+.logo{
+    padding-left: 30px;
+}
+.logo a{
+    font-size: 1.5rem;
+}
+.navLinks{
+    display: flex;
+}
+.navLinks li{
+    list-style: none;
+    padding-right: 30px;
+}
+.foodImg *{
+    position: relative;
+    left: 220px;
+    top: 144px;
+}
