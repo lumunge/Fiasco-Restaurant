@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import HeaderStyles from '../styles/HeaderStyles.module.css';
+import styles from '../styles/Header.module.css';
 
 export default function Hero() {
     return (
-        <div className={HeaderStyles.hero}>
-            <div className={HeaderStyles.foodImg}>
+        <div className={styles.hero}>
+            <div className={styles.foodImg}>
                 <Image 
                     src="/foodLogo.png" 
                     alt="me" 
@@ -12,9 +12,9 @@ export default function Hero() {
                     height="64" 
                 />
             </div>
-            <div className={HeaderStyles.heroText}>
-                <p className={HeaderStyles.heading}>Lorem ipsum dolor sit.</p>
-                <p>Lorem, ipsum dolor.</p>
+            <div className={styles.heroText}>
+                <p className={styles.heading}>Lorem ipsum dolor sit.</p>
+                <p>Lorem, ipsum dolor. <i className="fa fa-facebook" aria-hidden="true"></i></p>
                 <br/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, nisi.</p>
             </div>

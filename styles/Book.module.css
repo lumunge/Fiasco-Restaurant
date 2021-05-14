@@ -1,0 +1,41 @@
+.book{
+    height: 495px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+}
+.header h4{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.bookContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form{
+    text-align: center;
+}
+.item input,
+.item select{
+    height: 59px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #000;
+    padding-left: 1rem;
+}
+.bookBtn{
+    margin-top: 2rem;
+    border: none;
+    background: #be9d7a;
+    padding: 1.2rem 3rem;
+}
+.bookBtn:hover{
+    cursor: pointer;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    transition: all.4s ease-in-out;
+}

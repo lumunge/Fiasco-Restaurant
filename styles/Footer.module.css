@@ -1,0 +1,40 @@
+.footer{
+    background-color: #141723;
+    height: 318px;
+    color: #fff;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 70%;
+}
+.heading{
+    text-transform: uppercase;
+    padding-bottom: 1.2rem;
+    padding-top: 2rem;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+}
+.copy{
+    padding: 3rem 0 0 2rem;
+}
+.btn{
+    border: 1px solid #be9d7a;
+    background: transparent;
+    color: #fff;
+    padding: 1.2rem 3rem;
+}
+.icon{
+    border: 1px solid #be9d7a;
+    padding: 10px;
+}
+.icon:hover,
+.btn:hover{
+    cursor: pointer;
+    background: #be9d7a;
+    color: #fff;
+    transition: all.4s ease-in-out;
+}

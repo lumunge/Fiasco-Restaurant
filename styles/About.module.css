@@ -1,0 +1,70 @@
+.about{
+    display: flex;
+    height: 886px;
+}
+.title{
+    margin-top: 117px;
+    padding-bottom: 50px;
+    font-size: 3rem;
+    position: relative;
+}
+.hoursLines{
+    margin:5px 0;
+    height:2px;
+    background:
+      repeating-linear-gradient(to right,red 0,red 5px,transparent 5px,transparent 7px)
+      /*5px red then 2px transparent -> repeat this!*/
+}
+.aboutLeft{
+    width: 50%;
+    padding-right: 100px;
+}
+.aboutLeft p{
+    line-height: 30px;
+}
+.aboutRight{
+    width: 50%;
+}
+.aboutImg{
+    background: red;
+    width: 380px;
+    height: 598px;
+    margin-top: 244px;
+}
+.reservationBtn{
+    margin: 0 30px;
+    background: transparent;
+    border: 1px solid #be9d7a;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.reservationBtn:hover{
+    background: #be9d7a;
+    color: #000;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 541px;
+    background-color: #141723;
+    height: 420px;
+    width: 380px;
+    color: #fff;
+    padding: 0 33px;
+}
+.contactInfo p{
+    line-height: 25px;
+}
+.contactInfo a{
+    text-decoration: underline;
+    color: #be9d7a;
+}
+.contactTitle{
+    color: #be9d7a;
+    font-size: 1.5rem;
+}

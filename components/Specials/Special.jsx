@@ -1,12 +1,12 @@
-import SpecialsStyles from '../../styles/SpecialsStyles.module.css';
+import styles from '../../styles/Specials.module.css';
 
 export default function Special({image, name, price}) {
     return (
-        <div className={SpecialsStyles.singleSpecial}>
-            <div className={SpecialsStyles.specialImg}>
+        <div className={styles.singleSpecial}>
+            <div className={styles.specialImg}>
                 <img src={image} alt={name} />
             </div>
-            <div className={SpecialsStyles.specialText}>
+            <div className={styles.specialText}>
                 <p>{name}<span>{price}</span></p>
             </div>
         </div>
