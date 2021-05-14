@@ -2,9 +2,9 @@ import styles from '../../styles/Menu.module.css';
 import MenuItem from './MenuItem';
 
 
-export default function Menu({menuItems}) {
+export default function Menu({items}) {
 
-    console.log(menuItems);
+    console.log(items);
 
 
     return (
@@ -21,11 +21,11 @@ export default function Menu({menuItems}) {
 }
 
 export const getServerSideProps = async pageContext => {
-    const items = await fetch('https://raw.githubusercontent.com/lumungep12/Fiasco-Restaurant/master/components/Menu/MenuData.json');
-    const menuItems = await items.json();
+    const items = await fetch('https://raw.githubusercontent.com/lumungep12/Fiasco-Restaurant/master/MenuData.json');
+    // const menuItems = await items.json();
     return{
         props: {
-            menuItems
+            items
         }
     }
 }
