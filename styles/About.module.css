@@ -1,6 +1,8 @@
 .about{
     display: flex;
     height: 886px;
+    width: 100%;
+    padding: 0 330px;
 }
 .title{
     margin-top: 117px;
@@ -26,10 +28,13 @@
     width: 50%;
 }
 .aboutImg{
-    background: red;
     width: 380px;
     height: 598px;
     margin-top: 244px;
+}
+.aboutImg img{
+    width: 100%;
+    height: 100%;
 }
 .reservationBtn{
     margin: 0 30px;

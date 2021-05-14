@@ -2,6 +2,7 @@
     background-color: #141723;
     height: 318px;
     color: #fff;
+    padding: 0 330px;
 }
 .footerContainer{
     display: flex;
