@@ -1,0 +1,171 @@
+ [
+    {
+        "id": 1,
+        "title": "Air Fryer Bloomin Apples",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190724-air-fryer-blooming-apples-0340-portrait-pf-1564770188.png?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "breakfast",
+        "price": 400    
+    },
+    {
+        "id": 2,
+        "title": "Brownies",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190731-air-fryer-brownies-0045-portrait-pf-1565811497.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "breakfast",
+        "price": 230   
+    },
+    {
+        "id": 3,
+        "title": "Cannolis",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190807-cannolis-0219-portrait-pf-1565647072.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "breakfast",
+        "price": 250   
+    },
+    {
+        "id": 4,
+        "title": "Donuts",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190619-air-fryer-donuts-305-portrait-pf-1561758031.jpg?crop=0.9997369113391213xw:1xh;center,top&resize=980:*",
+        "category": "breakfast",
+        "price": 150    
+    },
+    {
+        "id": 5,
+        "title": "Smores",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190731-air-fryer-smores-0269-portrait-pf-1565820637.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "breakfast",
+        "price": 420  
+    },
+    {
+        "id": 6,
+        "title": "Cinnamon Rolls",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190802-air-fryer-cinnamon-rolls-0181-portrait-pf-1567799820.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "breakfast",
+        "price": 200   
+    },
+    {
+        "id": 7,
+        "title": "Cheesy Ground Beef Tacos",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/13/1459442142-delish-cheesy-ground-beef-tacos.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "lunch",
+        "price": 200  
+    },
+    {
+        "id": 8,
+        "title": "Creamy Tuscan Chicken",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191011-creamy-tuscan-chicken-delish-ehg-2518-1571259200.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "lunch",
+        "price": 550
+    },
+    {
+        "id": 9,
+        "title": "Tex-Mex Meatballs",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-tex-mex-meatballs-1550684247.jpg?crop=1.00xw:0.938xh;0,0&resize=980:*",
+        "category": "lunch",
+        "price": 340
+    },
+    {
+        "id": 10,
+        "title": "Bacon Spinach Stuffed Chicken",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/07-bacon-spinach-stuffed-chicken-11866-v-1582648479.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "lunch",
+        "price": 450  
+    },
+    {
+        "id": 11,
+        "title": "Oven Fried Chicken",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/33/1600x2399/gallery-1502991351-fried-chicken-delish1.jpg?resize=980:*",
+        "category": "lunch",
+        "price": 350
+    },
+    {
+        "id": 12,
+        "title": "Rainbow Stir-Fry",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/13/1459442142-delish-cheesy-ground-beef-tacos.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "lunch",
+        "price": 300
+    },
+    {
+        "id": 13,
+        "title": "Flan",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190410-flan-177-1555947946.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dessert",
+        "price": 170 
+    },
+    {
+        "id": 14,
+        "title": "Churros",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-churros-pin-1555698140.jpg?crop=1xw:0.9453781512605042xh;center,top&resize=980:*",
+        "category": "dessert",
+        "price": 320
+    },
+    {
+        "id": 15,
+        "title": "Margarita Cheesecake Mousse",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-margarita-cheesecake-parfaits-still001-1561649546.jpg?crop=0.378xw:1.00xh;0.445xw,0&resize=980:*",
+        "category": "dessert",
+        "price": 410
+    },
+    {
+        "id": 16,
+        "title": "Dulce de Leche",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/singleimagebug-dulce-de-leche-1556826153.jpg?crop=1.00xw:0.941xh;0,0&resize=980:*",
+        "category": "dessert",
+        "price": 250 
+    },
+    {
+        "id": 17,
+        "title": "Churro Cookies",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191119-churro-cookies-0603-portrait-pf-1574699076.jpg?crop=1xw:1xh;center,top&resize=768:*",
+        "category": "dessert",
+        "price": 200
+    },
+    {
+        "id": 18,
+        "title": "Rumchata Cupcakes",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/39/1506622066-delish-rumchata-cupcakes-holduppin.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dessert",
+        "price": 210
+    },
+    {
+        "id": 19,
+        "title": "Spicy Lentil Dal",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202101-dal-029-ls-1611342481.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dinner",
+        "price": 100
+    },
+    {
+        "id": 20,
+        "title": "Pizza Oatmeal",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pizza-oatmeal-vertical-1-jpg-1609886671.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dinner",
+        "price": 200
+    },
+    {
+        "id": 21,
+        "title": "Cheesy Spinach Pesto Flatbread",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/22/1496355886-spinach-pesto-mozzarella-flatbread.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dinner",
+        "price": 350
+    },
+    {
+        "id": 22,
+        "title": "Turkey Ragu",
+        "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/04/1453936103-delish-turkey-ragu-1.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dinner",
+        "price": 550 
+    },
+    {
+        "id": 23,
+        "title": "Chicken Salad Sandwich",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gallery-1502305197-chicken-salad-sandwich-delish-1524971915.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dinner",
+        "price": 300
+    },
+    {
+        "id": 24,
+        "title": "Pad Thai",
+        "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gallery-1498148188-delish-easy-pad-thai-vertical-1024-1594739450.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "category": "dinner",
+        "price": 230
+    }
+]
+
