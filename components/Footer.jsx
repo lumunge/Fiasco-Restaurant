@@ -13,6 +13,7 @@ export default function Footer() {
                 <br/>
                 <button className={styles.btn}>view map</button>
             </div>
+
             <div>
                 <p className={styles.heading}>Opening Hours</p>
                 <div>
