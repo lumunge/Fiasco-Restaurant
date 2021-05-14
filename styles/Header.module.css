@@ -3,8 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
     padding: 0 330px;
+}
+.navLine{
+    height: 1px;
+    background-color: #fff;
+    margin: 0 330px;
 }
 .logo{
     padding-left: 30px;
@@ -17,7 +21,7 @@
 }
 .navLinks li{
     list-style: none;
-    padding-right: 30px;
+padding-right: 30px;
 }
 .foodImg *{
     position: relative;

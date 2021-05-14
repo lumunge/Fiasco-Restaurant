@@ -42,7 +42,7 @@
 .bookBtn:hover{
     cursor: pointer;
     background: transparent;
-    color: #000;
-    border: 1px solid #000;
+    color: #fff;
+    border: 1px solid #fff;
     transition: all.4s ease-in-out;
 }

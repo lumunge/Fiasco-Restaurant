@@ -7,6 +7,7 @@ export default function Navbar() {
     const [navLinks] = useState(links);
 
     return (
+        <>
         <nav className={styles.navbar}>
             <div className={styles.logo}>
                 <a href="#!">Fiasco</a>
@@ -20,6 +21,9 @@ export default function Navbar() {
                     ))}
                 </ul>
             </div>
+           
         </nav>
+         <div className={styles.navLine}></div>
+         </>
     )
 }
