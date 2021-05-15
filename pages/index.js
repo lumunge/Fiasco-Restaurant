@@ -33,7 +33,7 @@ export default function Home() {
     <>
         <Head>
         <title>Fiasco Restaurant</title>
-        <meta name="description" content="Fiasco Restaurant, Nairobi" />
+        <meta name="description" content="Fiasco Restaurant, For all Your Meals" />
         <meta name="description" content="Food, Recipes, Restaurant, Lunches, Breakfasts, Dinners" />
       </Head>
         <div className='mainContainer'>
