@@ -1,10 +1,3 @@
-.navbar{
-    height: 69px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 330px;
-}
 .navLine{
     height: 1px;
     background-color: #fff;
@@ -15,13 +8,6 @@
 }
 .logo a{
     font-size: 1.5rem;
-}
-.navLinks{
-    display: flex;
-}
-.navLinks li{
-    list-style: none;
-padding-right: 30px;
 }
 .foodImg *{
     position: relative;
@@ -37,4 +23,14 @@ padding-right: 30px;
 .heroText .heading{
     font-size: 2rem;
     padding-bottom: 1rem;
+}
+ 
+/* responsive design */
+@media only screen and (max-width: 1200px) {
+    .navLine{
+        margin: 0;
+    }
+    .hero{
+        padding: 0;
+    }
 }

@@ -7,7 +7,6 @@
 .footerContainer{
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     height: 70%;
 }
 .heading{
@@ -38,4 +37,22 @@
     background: #be9d7a;
     color: #fff;
     transition: all.4s ease-in-out;
+}
+/* responsive design */
+@media only screen and (max-width: 1200px) {
+    .footer{
+        width: 100%;
+        height: 100%;
+        padding: 2rem 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 900px){
+    .footerContainer{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

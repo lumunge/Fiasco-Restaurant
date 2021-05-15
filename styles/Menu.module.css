@@ -52,3 +52,40 @@
     color: #fff;
     transition: all .4s ease-in-out;
 }
+/* responsive design */
+@media only screen and (max-width: 1200px) {
+    .menu{
+        width: 100%;
+        height: 110vh;
+        padding: 2rem 0;
+    }
+    .header{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .menu{
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        /* padding: 2rem 0; */
+    }
+    .categoryContainer{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    .menuContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .categoryContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-bottom: 1rem;
+    }
+}

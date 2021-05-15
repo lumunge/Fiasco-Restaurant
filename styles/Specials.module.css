@@ -13,7 +13,7 @@
     padding: 0 330px;
 }
 .header{
-    padding: 0 200px 85px 200px;
+    padding: 2rem 0;
     text-align: center;
 }
 .heading{
@@ -24,6 +24,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    padding-bottom: 4rem;
 }
 .specialImg img{
     width: 100%;
@@ -37,9 +38,23 @@
 }
 .specialText p{
     padding: 1rem 1rem;
-   /* text-align: right; */
 }
 .specialText span{
     position: relative;
     float: right;
+}
+
+/* responsive design */
+@media only screen and (max-width: 1200px) {
+    .specials{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 900px){
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

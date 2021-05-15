@@ -24,6 +24,7 @@ export default function MenuSection() {
             <div className={styles.header}>
                 <h4>Our Menu</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nulla.</p>
+                <br/>
             </div>
             <div className={styles.container}>
                 <div>

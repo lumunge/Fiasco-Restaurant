@@ -46,3 +46,25 @@
     border: 1px solid #fff;
     transition: all.4s ease-in-out;
 }
+/* responsive design */
+@media only screen and (max-width: 1200px) {
+    .book{
+        height: 100%;
+        width: 100%;
+        /* padding: 0; */
+        padding: 2rem 0;
+    }
+    .header{
+        padding: 2rem 0;
+    }
+}
+@media only screen and (max-width: 900px){
+    .bookContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .item input,
+    .item select{
+        margin-bottom: 1rem;
+    }
+}
