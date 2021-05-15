@@ -7,6 +7,7 @@ export default function Navbar() {
     const [navLinks] = useState(links);
     const [menu, setMenu] = useState(true);
     const [scrolled, setScrolled] = useState(false);
+    const [active, setActive] = useState(false);
 
     // toggling the menu
     const showMenu = () => {
@@ -23,6 +24,7 @@ export default function Navbar() {
         }
     }
 
+
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
     })
@@ -35,9 +37,11 @@ export default function Navbar() {
             </div>
             <div>
                 <ul className={menu ? 'navLinks' : 'navLinks show'}>
-                    {navLinks.map((link, index) => (
+                    {navLinks.map((link, index) => (    
                         <li key={index}>
-                            <a href="#!">{link.name}</a>
+                            <a href={link.idName} onClick={showMenu}>
+                                {link.name}
+                            </a>
                         </li>
                     ))}
                 </ul>
@@ -52,4 +56,5 @@ export default function Navbar() {
          <div className={styles.navLine}></div>
          </>
     )
+
 }

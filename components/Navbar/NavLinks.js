@@ -1,27 +1,32 @@
 const navLinks = [
     {
-        id: 1,
+        id: "#home",
         name: 'Home',
+        idName: "#home",
         url: "/home"
     },
     {
-        id: 1,
+        id: "#about",
         name: 'About Us',
+        idName: "#about",
         url: "/about"
     },
     {
-        id: 1,
+        id: 3,
         name: 'Menu',
+        idName: "#menu",
         url: "/menu"
     },
     {
-        id: 1,
+        id: 4,
         name: 'Reservations',
+        idName: "#reservations",
         url: "/reservations"
     },
     {
-        id: 1,
+        id: 5,
         name: 'Contact',
+        idName: "#contact",
         url: "/contact"
     },
 ];

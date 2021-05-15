@@ -2,7 +2,7 @@ import styles from '../styles/Book.module.css';
 
 export default function Book() {
     return (
-        <div className={styles.book}>
+        <div className={styles.book} id="reservations">
             <div className={styles.header}>
                 <h4>Book a Table</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
