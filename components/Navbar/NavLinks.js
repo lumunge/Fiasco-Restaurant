@@ -1,13 +1,13 @@
 const navLinks = [
     {
-        id: "#home",
+        id: 1,
         name: 'Home',
         idName: "#home",
         url: "/home"
     },
     {
-        id: "#about",
-        name: 'About Us',
+        id: 2,
+        name: 'About',
         idName: "#about",
         url: "/about"
     },
