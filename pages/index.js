@@ -7,28 +7,10 @@ import Specials from '../components/Specials/Specials';
 import MenuSection from '../components/Menu/MenuSection';
 import Book from '../components/Book';
 import Footer from '../components/Footer';
-import {FaAngleUp} from 'react-icons/fa';
+
 
 
 export default function Home() {
-
-  const [showScroll, setShowScroll] = useState(false);
-
-  const checkScrollTop = () => {
-    if(!showScroll && window.pageYOffset > 400){
-      setShowScroll(true)
-    }else if(showScroll && window.pageYOffset <= 400){
-      setShowScroll(false);
-    }
-  };
-
-  const scrollToTop = () => {
-    window.scrollTo({top:0, behavior: "smooth"});
-  }
-
-  window.addEventListener('scroll', checkScrollTop)
-
-
   return (
     <>
         <Head>
@@ -54,11 +36,6 @@ export default function Home() {
                     <Footer/>
                 </footer>
                 </div>
-                <FaAngleUp 
-                  className='scrollBtn' 
-                  onClick={scrollToTop} 
-                  style={{height: 40, display: showScroll ? 'flex' : 'none'}} 
-                />
         </div>
         </>
   )

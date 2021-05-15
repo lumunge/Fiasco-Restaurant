@@ -1,4 +1,5 @@
 import {FaFacebookF, FaInstagram, FaTwitter, FaWhatsapp} from 'react-icons/fa';
+import {FaAngleUp} from 'react-icons/fa';
 import styles from '../styles/Footer.module.css';
 
 export default function Footer() {
