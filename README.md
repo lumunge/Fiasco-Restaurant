@@ -10,8 +10,11 @@ A Fully Responsive Restaurant Website built with reactjs and next js.
     * Next js
 
 ### FEATURES
-    * Fully Responsive Design
     * Next js Features
+
+### MOBILE RESPONSIVE DESIGN
+
+![FiascoMobile](https://user-images.githubusercontent.com/58906058/118365737-9c2ad100-b58d-11eb-9f7f-bcf45acfaf01.png)
 
 
 ### SEO Friendly
