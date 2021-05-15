@@ -3,7 +3,7 @@ import styles from '../styles/Header.module.css';
 
 export default function Hero() {
     return (
-        <div className={styles.hero}>
+        <div className={styles.hero} id="home">
             <div className={styles.foodImg}>
                 <Image 
                     src="/foodLogo.png" 

@@ -38,6 +38,21 @@
     color: #fff;
     transition: all.4s ease-in-out;
 }
+.scrollBtn{
+    position: fixed;
+    bottom: 5px;
+    left: 85%;
+    z-index: 9999;
+    font-size: 4rem;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+    color: yellow;
+  }
+  .scrollBtn:hover{
+    opacity: 0.9;
+    transition: all .4s ease-in-out;
+  }
 /* responsive design */
 @media only screen and (max-width: 1200px) {
     .footer{

@@ -25,7 +25,7 @@ export default function Home() {
                     <Hero/>
                 </header>
 
-                <main className='main' id="about">
+                <main className='main'>
                     <About/>
                     <Specials/>
                     <MenuSection/>

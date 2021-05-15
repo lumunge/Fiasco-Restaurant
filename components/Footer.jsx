@@ -48,6 +48,7 @@ export default function Footer() {
             </div>
         </div>
         <p className={styles.copy}>&#169; 2021 -  Fiasco Restaurant All Rights Reserved</p>
+        <a className={styles.scrollBtn} href="#home"><FaAngleUp/></a>
         </div>
 
     )
