@@ -12,7 +12,11 @@ A Fully Responsive Restaurant Website built with reactjs and next js.
 ### FEATURES
     * Fully Responsive Design
     * Next js Features
-    * SEO Friendly
+
+
+### SEO Friendly
+
+![metrics](https://user-images.githubusercontent.com/58906058/118365612-00996080-b58d-11eb-9005-5cbe3e2570bb.png)
 
 ### PROJECT SCREENSHOTS
 
