@@ -4,12 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-<<<<<<< HEAD
-    "build": "next build"
-=======
     "build": "next build",
     "start": "next start"
->>>>>>> 587dafb9bab5a12e4d3b2053257c8013007dfb5f
   },
   "dependencies": {
     "next": "10.2.0",
