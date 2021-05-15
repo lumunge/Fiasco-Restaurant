@@ -9,11 +9,6 @@
 .logo a{
     font-size: 1.5rem;
 }
-.foodImg *{
-    position: relative;
-    left: 220px;
-    top: 142px;
-}
 .hero{
     padding: 0 330px;
 }
@@ -37,7 +32,4 @@
         justify-content: center;
         align-items: center;
     }
-    /* .heroText{
-        padding-top: 200px;
-    } */
 }
