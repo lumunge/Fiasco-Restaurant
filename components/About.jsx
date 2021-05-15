@@ -32,7 +32,7 @@ export default function About() {
                     <button className={AboutStyles.reservationBtn} type="button" href="#!">Table Reservation</button>
                 </div>
                 <div className={AboutStyles.aboutImg}>
-                    <img src="./aboutBg.webp" alt=""/>
+                    <img src="./aboutBg.webp" width="100%" height="100%" alt=""/>
                 </div>
             </div>
         </div>
