@@ -45,7 +45,7 @@ A Fully Responsive Restaurant Website built with reactjs and next js.
 ### SETUP
     * git clone https://github.com/lumungep12/Fiasco-Restaurant.git
     * npm i 
-    * npm start
+    * npm run dev
 
 
 
