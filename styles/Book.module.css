@@ -25,7 +25,8 @@
 .form {
 	text-align: center;
 }
-.item input {
+.item input,
+.item select {
 	height: 59px;
 	width: 300px;
 	background: #fff;
@@ -33,13 +34,9 @@
 	padding-left: 1rem;
 }
 .item select {
-	width: 300px;
-	height: 59px;
-	padding-left: 1rem;
-	border: 1px solid #000;
 	appearance: none;
-	background: url(https://image.flaticon.com/icons/png/128/2985/2985150.png)
-		96% / 15% no-repeat #eee;
+	background: url(https://image.flaticon.com/icons/png/128/203/203484.png) 96% /
+		15% no-repeat #fff;
 }
 .bookBtn {
 	margin-top: 2rem;
