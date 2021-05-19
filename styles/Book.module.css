@@ -1,70 +1,77 @@
-.book{
-    height: 495px;
-    background-image: url('../public/bookBg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    width: 100%;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
-    padding: 0 330px;
+.book {
+	height: 495px;
+	background-image: url("../public/bookBg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	width: 100%;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+	padding: 0 330px;
 }
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 4rem 0;
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 4rem 0;
 }
-.header h4{
-    font-size: 2rem;
-    padding-bottom: 1rem;
+.header h4 {
+	font-size: 2rem;
+	padding-bottom: 1rem;
 }
-.bookContainer{
-    display: flex;
-    justify-content: space-evenly;
+.bookContainer {
+	display: flex;
+	justify-content: space-evenly;
 }
-.form{
-    text-align: center;
+.form {
+	text-align: center;
 }
-.item input,
-.item select{
-    height: 59px;
-    width: 300px;
-    background: #fff;
-    border: 1px solid #000;
-    padding-left: 1rem;
+.item input {
+	height: 59px;
+	width: 300px;
+	background: #fff;
+	border: 1px solid #000;
+	padding-left: 1rem;
 }
-.bookBtn{
-    margin-top: 2rem;
-    border: none;
-    background: #be9d7a;
-    padding: 1.2rem 3rem;
+.item select {
+	width: 300px;
+	height: 59px;
+	padding-left: 1rem;
+	border: 1px solid #000;
+	appearance: none;
+	background: url(https://image.flaticon.com/icons/png/128/2985/2985150.png)
+		96% / 15% no-repeat #eee;
 }
-.bookBtn:hover{
-    cursor: pointer;
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-    transition: all.4s ease-in-out;
+.bookBtn {
+	margin-top: 2rem;
+	border: none;
+	background: #be9d7a;
+	padding: 1.2rem 3rem;
+}
+.bookBtn:hover {
+	cursor: pointer;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: all.4s ease-in-out;
 }
 /* responsive design */
 @media only screen and (max-width: 1200px) {
-    .book{
-        height: 100%;
-        width: 100%;
-        /* padding: 0; */
-        padding: 2rem 0;
-    }
-    .header{
-        padding: 2rem 0;
-    }
+	.book {
+		height: 100%;
+		width: 100%;
+		padding: 2rem 0;
+	}
+	.header {
+		padding: 2rem 0;
+	}
 }
-@media only screen and (max-width: 900px){
-    .bookContainer{
-        display: flex;
-        flex-direction: column;
-    }
-    .item input,
-    .item select{
-        margin-bottom: 1rem;
-    }
+@media only screen and (max-width: 900px) {
+	.bookContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.item input,
+	.item select {
+		margin-bottom: 1rem;
+	}
 }

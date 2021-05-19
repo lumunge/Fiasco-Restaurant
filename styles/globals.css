@@ -1,118 +1,121 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	scroll-behavior: smooth;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 .mainContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  width: 100%;
-  height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	width: 100%;
+	height: 100%;
 }
-.container{
-  width: 100%;
+.container {
+	width: 100%;
 }
-.header{
-  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
-  color: #fff;
-  height: 742px;
-  width: 100%;
+.header {
+	background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+	color: #fff;
+	height: 742px;
+	width: 100%;
 }
 
 /* navigation bar toggler */
-.navbar{
-  height: 69px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 330px;
+.navbar {
+	height: 69px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 330px;
 }
-.navLinks{
-  display: flex;
+.navLinks {
+	display: flex;
 }
-.navLinks li{
-  list-style: none;
-  padding-right: 30px;
+.navLinks li {
+	list-style: none;
+	padding-right: 30px;
 }
-.toggler{
-  position: absolute;
-  z-index: 9999;
-  right: 40px; 
-  top: 25px;
-  cursor: pointer;
-  transition: all .4s ease-in-out;
-  visibility: hidden;
+.navLinks li a:hover {
+	transition: all 0.4s ease-in-out;
+}
+.toggler {
+	position: absolute;
+	z-index: 9999;
+	right: 40px;
+	top: 25px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+	visibility: hidden;
 }
 
-.btnLine{
-  width: 40px;
-  height: 4px;
-  margin: 0 0 5px 0;
-  background: #fff;
-  transition: all .4s ease-in-out;
+.btnLine {
+	width: 40px;
+	height: 4px;
+	margin: 0 0 5px 0;
+	background: #fff;
+	transition: all 0.4s ease-in-out;
 }
-.close .btnLine:nth-child(1){
-  transform: rotate(45deg) translate(5px, 5px);
+.close .btnLine:nth-child(1) {
+	transform: rotate(45deg) translate(5px, 5px);
 }
-.close .btnLine:nth-child(2){
-  opacity: 0;
+.close .btnLine:nth-child(2) {
+	opacity: 0;
 }
-.close .btnLine:nth-child(3){
-  transform: rotate(-45deg) translate(7px ,-8px);
+.close .btnLine:nth-child(3) {
+	transform: rotate(-45deg) translate(7px, -8px);
 }
 @media only screen and (max-width: 1200px) {
-  .navbar{
-    position: sticky;
-    top: 0;
-    padding: 0;
-    z-index: 9999;
-    background: #141723;
-  }
-  .navbar.scrolled{
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  .navLinks{
-      display: none;
-  }
-  .toggler{
-    visibility: visible;
-  }
-  .navLinks.show{
-    position: absolute;
-    z-index: 9999;
-    top: 69px;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background: rgba(40, 40, 40, 0.7);
-  }
-  .navLinks.show li{
-    padding: 1rem 0;
-    font-size: 1.5rem;
-  }
+	.navbar {
+		position: sticky;
+		top: 0;
+		padding: 0;
+		z-index: 9999;
+		background: #141723;
+	}
+	.navbar.scrolled {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.navLinks {
+		display: none;
+	}
+	.toggler {
+		visibility: visible;
+	}
+	.navLinks.show {
+		position: absolute;
+		z-index: 9999;
+		top: 69px;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		background: rgba(40, 40, 40, 0.7);
+	}
+	.navLinks.show li {
+		padding: 1rem 0;
+		font-size: 1.5rem;
+	}
 }
