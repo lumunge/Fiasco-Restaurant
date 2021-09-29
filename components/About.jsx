@@ -19,7 +19,7 @@ export default function About() {
                     </header>
                     <main>
                         <h4>ADDRESS</h4>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Lorem ipsum dolor sitzz.</p>
                         <p>Lorem, ipsum.</p>
                         <p>JK 5566777</p>
                         <a href="#!">view-map</a>
