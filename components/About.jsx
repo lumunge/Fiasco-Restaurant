@@ -18,14 +18,14 @@ export default function About() {
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur</p>
                     </header>
                     <main>
-                        <h4>ADDRESS</h4>
+                        <h4 className={AboutStyles.contactTitle}>ADDRESS</h4>
                         <p>Lorem ipsum dolor sitzz.</p>
                         <p>Lorem, ipsum.</p>
                         <p>JK 5566777</p>
                         <a href="#!">view-map</a>
                     </main>
-                    <footer>
-                        <p>OPENING HOURS</p>
+                    <footer className={AboutStyles.footer}>
+                        <h4 className={AboutStyles.contactTitle}>OPENING HOURS</h4>
                         <p>Monday - Friday <span className={AboutStyles.hoursLines}></span>8:00am-11:00pm</p>
                         <p>Saturday - Sunday <span className={AboutStyles.hoursLines}></span> 8:00am-11:00pm</p>
                     </footer>
@@ -38,3 +38,4 @@ export default function About() {
         </div>
     )
 }
+ 
