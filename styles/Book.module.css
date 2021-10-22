@@ -18,6 +18,10 @@
 	font-size: 2rem;
 	padding-bottom: 1rem;
 }
+.header p {
+	padding: 0 1rem;
+	text-align: center;
+}
 .bookContainer {
 	display: flex;
 	justify-content: space-evenly;
