@@ -7,7 +7,7 @@ export default function Special({image, name, price}) {
                 <img src={image} alt={name} width="100%" height="100%" />
             </div>
             <div className={styles.specialText}>
-                <p>{name}<span>{price}</span></p>
+                <p>{name}<span>$ {price}</span></p>
             </div>
         </div>
     )
