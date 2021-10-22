@@ -1,35 +1,38 @@
-.navLine{
-    height: 1px;
-    background-color: #fff;
-    margin: 0 330px;
+.navLine {
+	height: 1px;
+	background-color: #fff;
+	margin: 0 330px;
 }
-.logo{
-    padding-left: 30px;
+.logo {
+	padding-left: 30px;
 }
-.logo a{
-    font-size: 1.5rem;
+.logo a {
+	font-size: 1.5rem;
 }
-.hero{
-    padding: 0 330px;
+.hero {
+	padding: 0 330px;
 }
-.heroText{
-    padding-top: 200px;
+.heroText {
+	padding-top: 200px;
 }
-.heroText .heading{
-    font-size: 2rem;
-    padding-bottom: 1rem;
+.heroText .heading {
+	font-size: 2rem;
+	padding-bottom: 1rem;
 }
- 
+
 /* responsive design */
 @media only screen and (max-width: 1200px) {
-    .navLine{
-        margin: 0;
-    }
-    .hero{
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+	.navLine {
+		margin: 0;
+	}
+	.hero {
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.heroText {
+		padding: 200px 1rem 0 1rem;
+	}
 }
